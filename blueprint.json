@@ -2,8 +2,11 @@
 	"identifier": "aws-igw",
 	"depends_on": "aws-vpc",
 	"about": {
-		"title": "AWS IGW",
+		"title": "AWS Internet Gateway",
 		"explanation": "AWS Internet Gateway"
+	},
+	"provider": {
+		default: {identifier: 'internet_gateway'}
 	},
 	"configuration": {
 		"vpc_id": "aws_vpc.main.id"
