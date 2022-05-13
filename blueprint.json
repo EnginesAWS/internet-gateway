@@ -6,7 +6,7 @@
 		"explanation": "AWS Internet Gateway"
 	},
 	"provider": {
-		default: {"identifier": "internet_gateway"}
+		"default": {"identifier": "internet_gateway"}
 	},
 	"configuration": {
 		"vpc_id": "aws_vpc.main.id"
