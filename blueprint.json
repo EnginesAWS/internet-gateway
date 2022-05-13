@@ -5,7 +5,7 @@
 		"title": "AWS Internet Gateway",
 		"explanation": "AWS Internet Gateway"
 	},
-	"provider": {
+	"compute_service": {
 		"default": {"identifier": "internet_gateway"}
 	},
 	"configuration": {
