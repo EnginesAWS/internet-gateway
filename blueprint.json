@@ -6,6 +6,6 @@
 		"explanation": "AWS Internet Gateway"
 	},
 	"configuration": {
-		"vpc_id": "aws_vpc.main.id"
+		"vpc_id": "aws_vpc.vpc.id"
 	}
 }
