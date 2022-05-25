@@ -1,1 +1,3 @@
-https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/internet_gateway
+# Internet Gateway
+
+An elementary blueprint for defining an AWS Internet Gateway
