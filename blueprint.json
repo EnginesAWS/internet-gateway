@@ -1,14 +1,15 @@
 {
-	"identifier": "aws-igw",
-	"depends_on": "aws-vpc",
+	"identifier": "internet-gateway",
 	"about": {
-		"title": "AWS Internet Gateway",
-		"explanation": "AWS Internet Gateway"
+		"title": "Internet Gateway",
+		"explanation": "An elementary blueprint for defining an AWS Internet Gateway"
 	},
 	"compute_service": {
 		"default": {"identifier": "internet_gateway"}
 	},
-	"configuration": {
-		"vpc_id": "aws_vpc.vpc.id"
+	"binding_target": {
+		"configuration": {
+			"vpc_id": ""
+		}
 	}
 }
