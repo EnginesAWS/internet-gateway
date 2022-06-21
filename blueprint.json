@@ -2,7 +2,7 @@
 	"identifier": "internet-gateway",
 	"about": {
 		"title": "Internet Gateway",
-		"explanation": "An elementary blueprint for defining an AWS Internet Gateway"
+		"explanation": "An elementary blueprint for defining an Internet Gateway"
 	},
 	"compute_service": {
 		"default": {"identifier": "internet_gateway"}
